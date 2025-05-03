@@ -1,0 +1,59 @@
+body{
+    background-image: url('./../img/bg.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.box{
+    background-color:cadetblue;
+    width: 600px;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10rem;
+    padding:0rem 2rem;
+}
+.img{
+    border-radius: 50%; 
+    height: 200px;
+    width: 200px;
+}
+h1,h2,p{
+    color: white;
+}
+.buttons{
+    display: flex;
+    gap: 1rem;
+}
+.buttons button{
+    padding: .75rem 4rem;
+    border-radius: 1rem;
+    border-color: red;
+    color: red;
+    background-color: green;
+}
+button:hover{
+    cursor:pointer;
+    background-color: grey;
+    color:black;
+}
+.icons{
+    display: flex;
+    gap: 1rem;
+    margin-top: 3rem;
+}
+.icons i:hover{
+    cursor:pointer;
+    background-color:aliceblue;
+}
+.icons i{
+    color:grey;
+    font-size: 3rem;
+}

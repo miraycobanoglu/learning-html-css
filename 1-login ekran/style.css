@@ -1,0 +1,94 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+.ekran{
+    
+    /*width:95vh;*/
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+body{
+    background: url(arkaplan.jpg);
+    background-position: center;
+    background-size:cover;
+    background-attachment: fixed;
+    font-family:'Courier New', Courier, monospace;
+}
+.kullanıcı{
+    width:100px;
+    height:100px;
+    overflow:hidden;
+    border-radius:50%;
+    border:1px solid black;
+}
+.login{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    background-color: rgba(0, 0, 0, 0.081);
+    box-shadow: 0 2px 4px black;
+    width:350px;
+    height:450px;
+    padding:50px 40px;
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.form{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap:10px;
+    
+}
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+    text-shadow: 5px 2px 5px black; 
+    
+}
+.login p{
+    font-weight: bold;
+    font-family:monospace;
+    font-size:large;
+    margin-bottom:5px;
+    margin-top:10px;
+}
+.login input[type='text'],
+.login input[type='password']
+{
+    width:200px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+}
+.login input[type='submit']{
+background-color: rgb(63, 142, 171);
+height:35px;
+width:100px;
+border-radius: 50px;
+border:none;
+margin-bottom: 10px;;
+
+}
+.login input[type='submit']:hover{
+    cursor:pointer;
+}
+.login a{
+    color:black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    border:1px solid rgba(0, 0, 0, 0.334);
+    border-radius: 30px;
+    padding:3px 10px;
+    
+}
+
+    
+    
